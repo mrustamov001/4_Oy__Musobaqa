@@ -1,3 +1,63 @@
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("/fonts/OpenSans-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("/fonts/OpenSans-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("/fonts/OpenSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("/fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: url("/fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: url("/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -42,7 +102,95 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1160px;
+  max-width: 1450px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header__wrapper {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 337px;
+  margin-right: 337px;
+}
+
+.header__nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 606px;
+}
+
+.header__nav-link {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132.9%;
+  color: #FFFFFF;
+}
+
+.header__btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 196px;
+}
+
+.header__btn-item {
+  background: transparent;
+  border: none;
+}
+
+.hero {
+  position: absolute;
+  padding-top: 273px;
+  padding-bottom: 354px;
+  width: 100%;
+  background-image: url("/images/Jpg__Img/hero__img.jpg");
+  background-repeat: no-repeat;
+}
+
+.hero__wrapper {
+  width: 668px;
+}
+
+.hero__title {
+  margin-bottom: 54px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+}
+
+.herp__text {
+  margin-bottom: 54px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07484A;
+}
+
+.hero__btn {
+  width: 230px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 54px;
+  padding-left: 54px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FDFBF8;
+  background: transparent;
+  background: #70908B;
+  border: none;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+// body{
+//     position: relative;
+// }
+
+.header__wrapper{
+    // position: absolute;
+    // z-index: 4;
+    // width: 100%;
+    padding-top: 20px;
+    @include row;
+}
+.header__nav{
+    margin: {
+        left: 337px;
+        right: 337px;
+    }
+}
+.header__nav-box{
+   @include row;
+   justify-content: space-between;
+   width: 606px;
+
+}
+.header__nav-link{
+    font-family: 'Playfair Display';
+    @include font(normal,700,20px,132.9%,#FFFFFF)
+}
+
+// @mixin font ($font-style, $font-wight, $font-size, $line-hieght, $color) 
+.header__btn-box{
+    @include row;
+    justify-content: space-between;
+    width: 196px;
+}
+
+.header__btn-item{
+    background: transparent;
+    border: none;
+}
