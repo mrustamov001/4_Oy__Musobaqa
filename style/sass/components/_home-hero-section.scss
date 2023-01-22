@@ -1,0 +1,38 @@
+
+.hero{
+    position: absolute;
+    padding-top: 273px;
+    padding-bottom: 354px;
+    width: 100%;
+    background-image: url('/images/Jpg__Img/hero__img.jpg');
+    background-repeat: no-repeat;
+    // background-position:;
+}
+
+.hero__wrapper{
+    width: 668px;
+}
+.hero__title{
+    margin-bottom: 54px;
+    font-family: 'Playfair Display';
+    @include font(normal,700,64px,85px,#07484A);
+}
+.herp__text{
+    margin-bottom: 54px;
+    @include font(normal,400,24px,33px,#07484A);
+}
+.hero__btn{
+    width: 230px;
+    padding: {
+        top: 23px;
+        bottom: 23px;
+        right: 54px;
+        left: 54px
+    }
+    // padding-top: 23px;
+    @include font(normal,700,24px,33px,#FDFBF8);
+    background: transparent;
+    background: #70908B;
+    border: none;
+    border-radius: 10px;
+}
